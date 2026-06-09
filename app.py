@@ -143,6 +143,18 @@ st.markdown(
             color: var(--muted);
         }
 
+        div[data-testid="stMetricLabel"] p {
+            color: var(--muted);
+        }
+
+        div[data-testid="stMetricValue"] {
+            color: var(--wine-dark);
+        }
+
+        div[data-testid="stMetricValue"] div {
+            color: var(--wine-dark);
+        }
+
         .result {
             border: 1px solid rgba(127, 18, 52, 0.2);
             border-radius: 8px;
